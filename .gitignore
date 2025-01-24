@@ -1,0 +1,33 @@
+# Excluir arquivos desnecessários do macOS
+.DS_Store
+
+# Diretórios gerados pela IDE
+.idea/
+.vscode/
+
+# Compilados binários gerados pelo Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Cache do Go
+/tmp/
+*.test
+*.out
+
+# Dependências geradas pelo Go mod tidy ou download
+vendor/
+
+# Arquivos de build
+/build/
+bin/
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Arquivos específicos do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
