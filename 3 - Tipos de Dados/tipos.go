@@ -9,19 +9,19 @@ func main() {
 	numero := 100
 	fmt.Println(numero)
 
-	var numero2 uint = 10000
+	var numero2 uint = 18446744073709551615
 	fmt.Println(numero2)
 
-	var numero3 rune = 123456 // int32
+	var numero3 rune = 2147483647 // int32
 	fmt.Println(numero3)
 
-	var numero4 byte = 123 // int8
+	var numero4 byte = 255 // uint8
 	fmt.Println(numero4)
 
-	var numeroReal float32 = 123.45
+	var numeroReal float32 = 3.4028235e+38
 	fmt.Println(numeroReal)
 
-	var numeroReal2 float64 = 999.99
+	var numeroReal2 float64 = 1.7976931348623157e+308
 	fmt.Println(numeroReal2)
 
 	var str string = "Texto"
